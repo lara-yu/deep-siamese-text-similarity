@@ -16,9 +16,9 @@ import sys
 tf.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")
 tf.flags.DEFINE_string("checkpoint_dir", "", "Checkpoint directory from training run")
 tf.flags.DEFINE_string("eval_filepath", "validation.txt0", "Evaluate on this data (Default: None)")
-tf.flags.DEFINE_string("vocab_filepath", "runs/1541668762/checkpoints/vocab",
+tf.flags.DEFINE_string("vocab_filepath", "runs/1541748108/checkpoints/vocab",
                        "Load training time vocabulary (Default: None)")
-tf.flags.DEFINE_string("model", "runs/1541668762/checkpoints/model-4000",
+tf.flags.DEFINE_string("model", "runs/1541748108/checkpoints/model-33000",
                        "Load trained model checkpoint (Default: None)")
 
 # Misc Parameters
